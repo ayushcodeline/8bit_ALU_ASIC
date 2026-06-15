@@ -1,0 +1,91 @@
+$date
+	Mon Jun 15 20:27:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_tb $end
+$var wire 1 ! zero $end
+$var wire 8 " result [7:0] $end
+$var wire 1 # overflow $end
+$var wire 1 $ carry $end
+$var reg 8 % A [7:0] $end
+$var reg 8 & B [7:0] $end
+$var reg 3 ' opcode [2:0] $end
+$scope module uut $end
+$var wire 8 ( A [7:0] $end
+$var wire 8 ) B [7:0] $end
+$var wire 3 * opcode [2:0] $end
+$var reg 1 $ carry $end
+$var reg 1 # overflow $end
+$var reg 8 + result [7:0] $end
+$var reg 9 , temp [8:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11001 ,
+b11001 +
+b0 *
+b1010 )
+b1111 (
+b0 '
+b1010 &
+b1111 %
+0$
+0#
+b11001 "
+0!
+$end
+#10000
+b1111 "
+b1111 +
+b1111 ,
+b1 '
+b1 *
+b101 &
+b101 )
+b10100 %
+b10100 (
+#20000
+b11 "
+b11 +
+b10 '
+b10 *
+b11 &
+b11 )
+b1111 %
+b1111 (
+#30000
+b1111 "
+b1111 +
+b11 '
+b11 *
+#40000
+b1100 "
+b1100 +
+b100 '
+b100 *
+#50000
+b11110000 "
+b11110000 +
+b101 '
+b101 *
+b0 &
+b0 )
+#60000
+b11110 "
+b11110 +
+b110 '
+b110 *
+#70000
+b111 "
+b111 +
+b111 '
+b111 *
+#80000
