@@ -1,0 +1,29 @@
+# Read Verilog
+read_verilog ../rtl/alu_top.v
+
+# Top module
+hierarchy -top alu_top
+
+# Process RTL
+proc
+
+# Optimize logic
+opt
+
+# Map FSM (if any)
+fsm
+
+# Optimize again
+opt
+
+# Technology independent synthesis
+techmap
+
+# Optimize
+opt
+
+# Generate statistics
+stat
+
+# Write synthesized netlist
+write_verilog alu_netlist.v
