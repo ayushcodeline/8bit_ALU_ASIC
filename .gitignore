@@ -1,0 +1,13 @@
+*.vcd
+*.out
+*.log
+*.tmp
+*.swp
+
+__pycache__/
+
+openlane_runs/
+
+runs/
+
+*.pyc
